@@ -1,0 +1,16 @@
+.main{
+	margin: auto;
+	width: 60%;
+}
+
+.gallery-wrapper{
+	width: 100%;
+	columns: 4;
+	column-gap: 3;
+	padding-top: 100px;
+
+}
+
+.element{
+	width: 100%;
+}

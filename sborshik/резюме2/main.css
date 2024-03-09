@@ -1,0 +1,124 @@
+*, *:after, *:before {
+   
+    box-sizing: inherit;
+}
+html {
+    
+    box-sizing: border-box;
+}
+
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 960px;
+    background: beige;
+    margin: 20px auto;
+}
+
+.avatar {
+    max-width: 350px;
+    background: #adabab;
+    color: #ebebeb;
+}
+
+.h2-first {
+    color: snow;
+    border-bottom: 2px #5a5a5a dashed;
+}
+
+.heading {
+    margin: 0;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.photo-info {
+    padding: 50px 30px 70px 30px;
+}
+
+.text {
+    line-height: 24.19px;
+    font-size: 13px;
+}
+
+.photo {
+    height: 230px;
+    background: url(https://sun9-74.userapi.com/impg/SJsDJEpxqWhfykgieio0esMOdBzimaDGF_M_ZA/Zm-oU1oKa5s.jpg?size=960x1280&quality=95&sign=daf09d9afb78f56e661270d238454fc6&type=album);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact {
+  border-bottom: 2px black dashed;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 70px;
+    
+}
+
+.phone {
+  color:white;
+    margin-bottom: 13px;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+.link-number {
+    color:white;
+    text-decoration: none;
+    padding-left: 27px;
+    line-height: 21px;
+}
+
+.language-text {
+    border-radius: 5px;
+}
+
+.language-percent {
+    border-r
+}
+
+.language {
+    width: 100px;
+    height: 100px;
+    border: 6px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.languages {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.line {
+    width: 90px;
+    border: 2px solid black;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: :10px;
+    
+}
+
+.line:nth-child(2){
+    width: 104px;
+    margin-left: 20px;
+}
+
+span {
+    
+}
+
+.lines {
+    display: flex;
+    flex-direction: column;
+}

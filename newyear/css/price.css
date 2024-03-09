@@ -1,0 +1,55 @@
+.main{
+	padding-top: 200px;
+	display: flex;
+
+
+}
+
+
+
+.shop-wrapper{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+
+	
+}
+
+.shop-item{
+	width: calc(33% - 10px - 60px);
+	padding: 30px ;
+	margin: 5px;
+	height: 450px;
+/*	background: red;*/
+	text-align: center;
+	border: 1px solid black;		
+
+}
+.shop-item-img{
+	width: 250px;
+	height: 250px;
+
+}
+
+
+.h3{
+	font-size: 30px;
+
+}
+.header-btn{
+	background: ;
+	color: pink;
+}
+
+.shop-item:hover{
+	transition: 1s;
+	transform: scale(1.1);
+	color: white;
+	background: darkgray;
+}
+
+
+.shop-items:hover > .header-btn{
+	background: ;
+	transition: 1s;
+}
